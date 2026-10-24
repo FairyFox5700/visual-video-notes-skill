@@ -1,0 +1,24 @@
+{
+  "report_title": "Visual Speaker Notes — Video title",
+  "video_title": "Video title",
+  "source_url": "https://www.youtube.com/watch?v=VIDEO_ID",
+  "speaker": "Speaker or channel",
+  "published": "YYYY-MM-DD",
+  "duration": "MM:SS",
+  "slides": [
+    {
+      "timestamp": "02:05",
+      "title": "A substantive argument or data set",
+      "subtitle": "Optional framing",
+      "image": "candidates/frame_00016_000120.jpg",
+      "crop": [100, 50, 1180, 650],
+      "layout": "standard",
+      "notes": [
+        "Explain what the visual shows.",
+        "Connect it to the speaker's argument.",
+        "State practical implications and caveats."
+      ],
+      "why_it_matters": "One clear operational takeaway."
+    }
+  ]
+}
