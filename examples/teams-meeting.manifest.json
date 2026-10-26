@@ -1,0 +1,23 @@
+{
+  "report_title": "Architecture review — checkout modernization",
+  "video_title": "Checkout modernization review",
+  "source_url": "https://contoso.sharepoint.com/:v:/r/sites/team/EXAMPLE",
+  "duration": "52:10",
+  "selection_policy": "Include decisions, actions, risks, and unique technical visuals; exclude repeated screen states and presenter-only frames.",
+  "slides": [
+    {
+      "timestamp": "18:42",
+      "title": "Payment orchestration remains behind the existing API",
+      "subtitle": "Decision recorded during architecture review",
+      "image": "../runs/architecture-review/candidates/frame_00142_001128.jpg",
+      "layout": "wide",
+      "notes": [
+        "The public checkout API remains stable while payment providers move behind an orchestration service.",
+        "The team chose incremental migration to avoid changing web and mobile clients simultaneously.",
+        "Action: Maya will document timeout and retry behavior before the next design review.",
+        "Open question: the recording does not establish who owns provider-level reconciliation."
+      ],
+      "why_it_matters": "A stable boundary reduces migration risk but requires explicit failure semantics."
+    }
+  ]
+}
